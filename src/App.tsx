@@ -16,7 +16,7 @@ function App() {
   const [output, setOutput] = useState<string[]>([]);
 
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
+    Autoplay({ delay: 1200, stopOnInteraction: true })
   );
   const handleLimitInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = e.target;
